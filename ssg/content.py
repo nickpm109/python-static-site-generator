@@ -1,6 +1,6 @@
 import re
 
-from _collections_abc import Mapping
+from collections.abc import Mapping
 from yaml import load
 from yaml import FullLoader
 

@@ -1,8 +1,9 @@
 import re
 
+from _collections_abc import Mapping
 from yaml import load
 from yaml import FullLoader
-from _collections_abc import Mapping
+
 
 class Content(Mapping):
     __delimiter = r"^(?:-|\+){3}\s*$"
